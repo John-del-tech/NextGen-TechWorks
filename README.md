@@ -8,9 +8,10 @@ This repository contains the report IT Infrastructure Upgrade for NextGen Tech W
 
 Diagrams.
 Contains the three figures referenced in the appendices:
--Figure 1.Throughput vs offered load in mixed 802.11ax802.11ac networks (Natkaniec and Bieryt, 2023).png
--Figure 2. Docker vs host execution time comparison (Kononowicz and Czarnul, 2022).png
--Figure 3. NextGen TechWorks (SME) - Site Network and Cloud Integration.png
+
+* Figure 1.Throughput vs offered load in mixed 802.11ax802.11ac networks (Natkaniec and Bieryt, 2023).png
+* Figure 2. Docker vs host execution time comparison (Kononowicz and Czarnul, 2022).png
+* Figure 3. NextGen TechWorks (SME) - Site Network and Cloud Integration.png
 
 Report
 Contains the main report content, including weekly task summaries and the reference list.
@@ -30,6 +31,7 @@ Contains the main report content, including weekly task summaries and the refere
 ![Figure 2. Docker vs host execution time comparison (Kononowicz and Czarnul, 2022)](Diagrams/Figure%202.%20Docker%20vs%20host%20execution%20time%20comparison%20(Kononowicz%20and%20Czarnul,%202022).png)
 
 **Table 1**
+
 *Key gaming-station component shortlist and selection rationale.*
 | Component | SME gaming-ready specification         | Why it is selected                                    | Budget note          |
 | --------- | -------------------------------------- | ----------------------------------------------------- | -------------------- |
