@@ -29,6 +29,7 @@ Contains the main report content, including weekly task summaries and the refere
 
 **Table 1**
 *Key gaming-station component shortlist and selection rationale.*
+
 +-----------+------------------------------+----------------------------------------------+--------------------+
 | Component | SME gaming-ready             | Why it is selected                           | Budget             |
 |           | specification                |                                              | note               |
@@ -47,6 +48,7 @@ Contains the main report content, including weekly task summaries and the refere
 +-----------+------------------------------+----------------------------------------------+--------------------+
 
 **Table 2**
+
 *Network and cloud options mapped to NextGen operational needs and cost control approach.*
 +--------------+---------------------------+----------------------------------------------+--------------------+
 | Area         | Selected solution         | Business value for NextGen                   | Cost control       |
@@ -73,6 +75,7 @@ Contains the main report content, including weekly task summaries and the refere
 
 **Table 3**
 *Project plan: Timeline and deliverables (by week).*
+
 +---------+-------------------------------+---------------------------------------------------------------+---------------------------------------------------------------+
 | Week(s) | Work package                  | Key activities                                                 | Outputs for PLR evidence                                      |
 +---------+-------------------------------+---------------------------------------------------------------+---------------------------------------------------------------+
