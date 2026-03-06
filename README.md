@@ -21,16 +21,14 @@ Contains the main report content, including weekly task summaries and the refere
 
 **Figure 1**
 *Throughput versus offered load in mixed IEEE 802.11ax and IEEE 802.11ac networks, with and without BSS coloring (Natkaniec and Bieryt, 2023).*
-![Figure 1. Throughput vs offered load in mixed 802.11ax/802.11ac networks (Natkaniec and Bieryt, 2023)](Diagrams/Figure%201.Throughput%20vs%20offered%20load%20in%20mixed%20802.11ax802.11ac%20networks%20\(Natkaniec%20and%20Bieryt,%202023\).png)
+![Figure 1. Throughput vs offered load in mixed 802.11ax/802.11ac networks (Natkaniec and Bieryt, 2023)](Diagrams/Figure%201.Throughput%20vs%20offered%20load%20in%20mixed%20802.11ax802.11ac%20networks%20(Natkaniec%20and%20Bieryt,%202023).png)
 
 **Figure 2**
 *Docker versus host execution time comparison for parallel computing workloads across increasing numbers of processes (Kononowicz and Czarnul, 2022).*
-![Figure 2. Docker vs host execution time comparison (Kononowicz and Czarnul, 2022)](Diagrams/Figure%202.%20Docker%20vs%20host%20execution%20time%20comparison%20\(Kononowicz%20and%20Czarnul,%202022\).png)
+![Figure 2. Docker vs host execution time comparison (Kononowicz and Czarnul, 2022)](Diagrams/Figure%202.%20Docker%20vs%20host%20execution%20time%20comparison%20(Kononowicz%20and%20Czarnul,%202022).png)
 
 **Table 1**
 *Key gaming-station component shortlist and selection rationale.*
-
-```text
 +-----------+------------------------------+----------------------------------------------+--------------------+
 | Component | SME gaming-ready             | Why it is selected                           | Budget             |
 |           | specification                |                                              | note               |
@@ -47,12 +45,9 @@ Contains the main report content, including weekly task summaries and the refere
 | Storage   | 1-2 TB NVMe SSD +            | Fast load times plus capacity for             | Tiered             |
 |           | optional HDD/NAS             | media/projects                                | spend              |
 +-----------+------------------------------+----------------------------------------------+--------------------+
-```
 
 **Table 2**
 *Network and cloud options mapped to NextGen operational needs and cost control approach.*
-
-```text
 +--------------+---------------------------+----------------------------------------------+--------------------+
 | Area         | Selected solution         | Business value for NextGen                   | Cost control       |
 |              |                           | SME                                          | approach           |
@@ -69,18 +64,15 @@ Contains the main report content, including weekly task summaries and the refere
 | Cloud        | Cloud backup or           | Scalability and resilience                   | Pay only for       |
 |              | hybrid storage            |                                              | usage              |
 +--------------+---------------------------+----------------------------------------------+--------------------+
-```
 
 ### Appendix B. Project Artifacts
 
 **Figure 3**
 *NextGen TechWorks (SME) site network and cloud integration diagram.*
-![Figure 3. NextGen TechWorks (SME) site network and cloud integration diagram](Diagrams/Figure%203.%20NextGen%20TechWorks%20\(SME\)%20-%20Site%20Network%20and%20Cloud%20Integration.png)
+![Figure 3. NextGen TechWorks (SME) site network and cloud integration diagram](Diagrams/Figure%203.%20NextGen%20TechWorks%20(SME)%20-%20Site%20Network%20and%20Cloud%20Integration.png)
 
 **Table 3**
 *Project plan: Timeline and deliverables (by week).*
-
-```text
 +---------+-------------------------------+---------------------------------------------------------------+---------------------------------------------------------------+
 | Week(s) | Work package                  | Key activities                                                 | Outputs for PLR evidence                                      |
 +---------+-------------------------------+---------------------------------------------------------------+---------------------------------------------------------------+
@@ -121,4 +113,3 @@ Contains the main report content, including weekly task summaries and the refere
 | 12      | Cloud and virtualisation      | Choose cloud service model for backup/monitoring; document       | Cloud plan summary                                            |
 |         |                               | virtualisation or container plan; evaluate impact               | + performance notes + final budget totals                     |
 +---------+-------------------------------+---------------------------------------------------------------+---------------------------------------------------------------+
-```
