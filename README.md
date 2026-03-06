@@ -29,43 +29,24 @@ Contains the main report content, including weekly task summaries and the refere
 
 **Table 1**
 *Key gaming-station component shortlist and selection rationale.*
-
-+-----------+------------------------------+----------------------------------------------+--------------------+
-| Component | SME gaming-ready             | Why it is selected                           | Budget             |
-|           | specification                |                                              | note               |
-+-----------+------------------------------+----------------------------------------------+--------------------+
-| CPU       | 8-16 cores, high single-     | Supports high FPS plus                        | Mid-high           |
-|           | thread boost                 | streaming/creation workloads                  | cost driver        |
-+-----------+------------------------------+----------------------------------------------+--------------------+
-| GPU       | Current gen, 12-16 GB        | Enables high-resolution gaming                | Highest cost       |
-|           | VRAM (or higher)             | and pro graphics tasks                        | item               |
-+-----------+------------------------------+----------------------------------------------+--------------------+
-| RAM       | 32-64 GB DDR4/DDR5           | Stable multitasking, IDEs,                    | Scale with         |
-|           |                              | streaming tools                               | users              |
-+-----------+------------------------------+----------------------------------------------+--------------------+
-| Storage   | 1-2 TB NVMe SSD +            | Fast load times plus capacity for             | Tiered             |
-|           | optional HDD/NAS             | media/projects                                | spend              |
-+-----------+------------------------------+----------------------------------------------+--------------------+
+| Component | SME gaming-ready specification         | Why it is selected                                    | Budget note          |
+| --------- | -------------------------------------- | ----------------------------------------------------- | -------------------- |
+| CPU       | 8-16 cores, high single-thread boost   | Supports high FPS plus streaming/creation workloads   | Mid-high cost driver |
+| GPU       | Current gen, 12-16 GB VRAM (or higher) | Enables high-resolution gaming and pro graphics tasks | Highest cost item    |
+| RAM       | 32-64 GB DDR4/DDR5                     | Stable multitasking, IDEs, streaming tools            | Scale with users     |
+| Storage   | 1-2 TB NVMe SSD + optional HDD/NAS     | Fast load times plus capacity for media/projects      | Tiered spend         |
 
 **Table 2**
 
 *Network and cloud options mapped to NextGen operational needs and cost control approach.*
-+--------------+---------------------------+----------------------------------------------+--------------------+
-| Area         | Selected solution         | Business value for NextGen                   | Cost control       |
-|              |                           | SME                                          | approach           |
-+--------------+---------------------------+----------------------------------------------+--------------------+
-| LAN core     | Managed switch +          | Separates admin, guest, and                  | Buy once, multi-   |
-|              | VLANs                     | gaming traffic                               | year use           |
-+--------------+---------------------------+----------------------------------------------+--------------------+
-| Wi-Fi        | Wi-Fi 6 (802.11ax)        | Better throughput under load,                | Right-size AP      |
-|              | APs                       | improved efficiency                          | count              |
-+--------------+---------------------------+----------------------------------------------+--------------------+
-| Core         | DHCP/DNS on server        | Reliable addressing + name                   | Use existing       |
-| services     | or firewall               | resolution                                   | licences           |
-+--------------+---------------------------+----------------------------------------------+--------------------+
-| Cloud        | Cloud backup or           | Scalability and resilience                   | Pay only for       |
-|              | hybrid storage            |                                              | usage              |
-+--------------+---------------------------+----------------------------------------------+--------------------+
+Network and cloud options mapped to NextGen operational needs and cost control approach.
+
+| Area          | Selected solution              | Business value for NextGen SME                    | Cost control approach    |
+| ------------- | ------------------------------ | ------------------------------------------------- | ------------------------ |
+| LAN core      | Managed switch + VLANs         | Separates admin, guest, and gaming traffic        | Buy once, multi-year use |
+| Wi-Fi         | Wi-Fi 6 (802.11ax) APs         | Better throughput under load, improved efficiency | Right-size AP count      |
+| Core services | DHCP/DNS on server or firewall | Reliable addressing + name resolution             | Use existing licences    |
+| Cloud         | Cloud backup or hybrid storage | Scalability and resilience                        | Pay only for usage       |
 
 ### Appendix B. Project Artifacts
 
@@ -76,43 +57,17 @@ Contains the main report content, including weekly task summaries and the refere
 **Table 3**
 *Project plan: Timeline and deliverables (by week).*
 
-+---------+-------------------------------+---------------------------------------------------------------+---------------------------------------------------------------+
-| Week(s) | Work package                  | Key activities                                                 | Outputs for PLR evidence                                      |
-+---------+-------------------------------+---------------------------------------------------------------+---------------------------------------------------------------+
-| 1       | PC components                 | Research CPU, GPU, motherboard options; compare                | Component shortlist table                                     |
-|         |                               | benchmarks/specs; check compatibility and upgrade paths         | + justification notes + cost estimates                        |
-+---------+-------------------------------+---------------------------------------------------------------+---------------------------------------------------------------+
-| 2       | System unit components        | Select cooling and PSU; validate power draw and efficiency;     | Compatibility checklist                                       |
-|         |                               | confirm case airflow assumptions                                | + PSU sizing notes + updated cost table                       |
-+---------+-------------------------------+---------------------------------------------------------------+---------------------------------------------------------------+
-| 3       | Storage and power strategy    | Compare NVMe SSD vs SATA SSD vs HDD; define storage tiers for   | Comparison chart                                              |
-|         |                               | gaming rigs and shared files; confirm backup approach           | + recommendation table + budget update                        |
-+---------+-------------------------------+---------------------------------------------------------------+---------------------------------------------------------------+
-| 4       | Peripherals and external      | Select monitor, keyboard, mouse, headset, printer; define       | Images with sources                                           |
-|         | devices                       | maintenance and replacement schedule                            | + setup/maintenance notes + peripheral cost table             |
-+---------+-------------------------------+---------------------------------------------------------------+---------------------------------------------------------------+
-| 5       | Networking design             | Design SME network layout; select switch/AP/router; define      | Network diagram (PlantUML)                                    |
-|         |                               | VLANs for gaming, admin, guest                                  | + hardware quotes + design rationale                          |
-+---------+-------------------------------+---------------------------------------------------------------+---------------------------------------------------------------+
-| 6       | Protocols and services        | Plan and document DHCP/DNS; define IP scheme; test connectivity | Configuration screenshots/logs                                |
-|         |                               | and name resolution                                             | + simple performance checks                                   |
-+---------+-------------------------------+---------------------------------------------------------------+---------------------------------------------------------------+
-| 7       | Project management            | Confirm roles, timeline, dependencies; introduce change control | Short Gantt-style schedule                                    |
-|         |                               | and risk tracking                                               | + roles list + risk register summary                          |
-+---------+-------------------------------+---------------------------------------------------------------+---------------------------------------------------------------+
-| 8       | Cyber security                | Define baseline security controls (accounts, MFA, patching,      | Risk matrix                                                   |
-|         |                               | backups, endpoint protection, firewall rules); perform risk     | + security checklist + audit evidence screenshots             |
-|         |                               | assessment                                                     |                                                               |
-+---------+-------------------------------+---------------------------------------------------------------+---------------------------------------------------------------+
-| 9       | Troubleshooting               | Record issues encountered and fixes (hardware, drivers, network, | Troubleshooting diary table                                   |
-|         |                               | latency, updates)                                              | + resolution summaries + tool outputs                         |
-+---------+-------------------------------+---------------------------------------------------------------+---------------------------------------------------------------+
-| 10      | Operating systems             | Select OS edition; document install, updates, drivers, policies; | OS setup evidence                                             |
-|         |                               | apply security hardening                                        | + configuration screenshots + verification outputs            |
-+---------+-------------------------------+---------------------------------------------------------------+---------------------------------------------------------------+
-| 11      | Mobile devices and IDEs       | Define mobile management rules; enforce lock screen and MFA;     | Policy notes                                                  |
-|         |                               | document IDE setup for productivity workflows                   | + setup steps + screenshots showing configurations            |
-+---------+-------------------------------+---------------------------------------------------------------+---------------------------------------------------------------+
-| 12      | Cloud and virtualisation      | Choose cloud service model for backup/monitoring; document       | Cloud plan summary                                            |
-|         |                               | virtualisation or container plan; evaluate impact               | + performance notes + final budget totals                     |
-+---------+-------------------------------+---------------------------------------------------------------+---------------------------------------------------------------+
+| Week(s) | Work package                     | Key activities                                                                                                                     | Outputs for PLR evidence                                              |
+| ------- | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| 1       | PC components                    | Research CPU, GPU, motherboard options; compare benchmarks/specs; check compatibility and upgrade paths                            | Component shortlist table + justification notes + cost estimates      |
+| 2       | System unit components           | Select cooling and PSU; validate power draw and efficiency; confirm case airflow assumptions                                       | Compatibility checklist + PSU sizing notes + updated cost table       |
+| 3       | Storage and power strategy       | Compare NVMe SSD vs SATA SSD vs HDD; define storage tiers for gaming rigs and shared files; confirm backup approach                | Comparison chart + recommendation table + budget update               |
+| 4       | Peripherals and external devices | Select monitor, keyboard, mouse, headset, printer; define maintenance and replacement schedule                                     | Images with sources + setup/maintenance notes + peripheral cost table |
+| 5       | Networking design                | Design SME network layout; select switch/AP/router; define VLANs for gaming, admin, guest                                          | Network diagram (PlantUML) + hardware quotes + design rationale       |
+| 6       | Protocols and services           | Plan and document DHCP/DNS; define IP scheme; test connectivity and name resolution                                                | Configuration screenshots/logs + simple performance checks            |
+| 7       | Project management               | Confirm roles, timeline, dependencies; introduce change control and risk tracking                                                  | Short Gantt-style schedule + roles list + risk register summary       |
+| 8       | Cyber security                   | Define baseline security controls (accounts, MFA, patching, backups, endpoint protection, firewall rules); perform risk assessment | Risk matrix + security checklist + audit evidence screenshots         |
+| 9       | Troubleshooting                  | Record issues encountered and fixes (hardware, drivers, network, latency, updates)                                                 | Troubleshooting diary table + resolution summaries + tool outputs     |
+| 10      | Operating systems                | Select OS edition; document install, updates, drivers, policies; apply security hardening                                          | OS setup evidence + configuration screenshots + verification outputs  |
+| 11      | Mobile devices and IDEs          | Define mobile management rules; enforce lock screen and MFA; document IDE setup for productivity workflows                         | Policy notes + setup steps + screenshots showing configurations       |
+| 12      | Cloud and virtualisation         | Choose cloud service model for backup/monitoring; document virtualisation or container plan; evaluate impact                       | Cloud plan summary + performance notes + final budget totals          |
